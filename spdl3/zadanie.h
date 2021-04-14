@@ -10,10 +10,7 @@ class zadanie
 public:
 	long j, m; //nr zadania i maszyna/operacja
 	vector<long> p; //czasy trwania
-
 	zadanie();
-	//zadanie(long m);
-
 };
 
 #endif

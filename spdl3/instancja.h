@@ -5,7 +5,6 @@
 #include "RandomNumberGenerator.h"
 #include <iostream>
 #include <algorithm>
-#include <vector>
 
 using namespace std;
 
@@ -19,16 +18,11 @@ public:
 	instancja();
 	void wypiszTabele();
 	
-	void wypiszPi();
+	vector<long> domyslnePi();
 	void wypiszPi(vector<long> pi);
-
-	void funkcja_oceny();
-
-	/*
-	void calculate();
-	void calculate(vector<long> pi);
-	vector<long> Schrage();
-	*/
+	void wypiszWyniki(vector<long> pi);
+	long funkcja_oceny(vector<long> pi);
+	vector<long> johnson();
 };
 
 #endif
