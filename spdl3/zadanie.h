@@ -8,7 +8,7 @@ using namespace std;
 class zadanie
 {
 public:
-	long j, m; //nr zadania i maszyna/operacja
+	long j; //nr zadania
 	vector<long> p; //czasy trwania
 	zadanie();
 };
